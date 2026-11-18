@@ -7,38 +7,6 @@ enterprises to manage products, categories, suppliers and stock.
 their own data · full CRUD on products, categories and suppliers · stock in/out/adjust with
 history · low-stock list · search and filters · dashboard summary · automatic API docs.
 
-## Run it (exact steps)
-
-Requires Python 3.10 or newer. Open a terminal in the `backend/` folder.
-
-**Windows (PowerShell)**
-```powershell
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env
-python seed.py                                   # optional: demo data
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-**macOS / Linux**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-python seed.py                                   # optional: demo data
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
-
-Then open:
-- http://127.0.0.1:8000/docs – interactive API docs (Swagger). Click **Authorize** to log in.
-- http://127.0.0.1:8000/health – should show `{"status":"ok"}`
-
-Demo login after `python seed.py`: **demo@example.com / Demo12345**
-
-The tables are created automatically on first start (`inventory.db` appears in this folder).
-To reset everything, stop the server and delete `inventory.db`.
 
 ## Connecting the Flutter app
 See [`../docs/API_ENDPOINTS.md`](../docs/API_ENDPOINTS.md) (endpoints, request/response shapes,
