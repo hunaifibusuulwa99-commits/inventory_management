@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+*.db
+.pytest_cache/
+
+# Flutter
+app/build/
+app/.dart_tool/
