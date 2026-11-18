@@ -1,3 +1,7 @@
+#
+
+Inventory management application for small and medium enterprises
+
 # Stockwise: Inventory Management for SMEs
 
 Mobile App Development Capstone: Flutter app + FastAPI backend.
