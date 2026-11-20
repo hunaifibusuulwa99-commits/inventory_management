@@ -7,6 +7,9 @@ Inventory management application for small and medium enterprises
 Mobile App Development Capstone: Flutter app + FastAPI backend.
 
 **Group members:** _add the three names here_
+BUSUULWA HUNAIFI 241-22302-7511 BACKEND LEAD 
+NAMUSUBO ATIKA  FLUTTER LEAD
+NSUBUGA FARID  ANALYST AND INTERGRATION LEAD 
 **Project idea:** Inventory management for small and medium enterprises. Track products,
 categories, suppliers and stock levels, record stock in and out, and get low-stock alerts.
 
@@ -55,5 +58,8 @@ address with the gear icon on the login screen.
 | Logout clears the token | Done |
 | Design document, ERD, data dictionary, endpoint table | `docs/` (add diagrams and sketches, export to PDF) |
 
-## Screenshots
-_Add app screenshots here._
+GROUP MEMBERS
+BUSUULWA HUNAIFI, 241-22302-7511 BACK END LEAD
+NAMUSUBO ATIKA,  FLUTTER LEAD
+NSUBUGA FARID,  ANALYST AND INTERGRATION
+
